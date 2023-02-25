@@ -1,7 +1,20 @@
 .App{
   text-align: center;
 }
-
+.btn-about{
+  float: right;
+    margin-right: 20px;
+    width: 100px;
+    height: 25px;
+    background: linear-gradient(to right, #e277bb 30%, #ddb683 90%);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 10px;
+}
+button:hover {
+  background: linear-gradient(45deg, #FFAFBD 30%, #ffc3a0 90%);
+}
 .card {
   position: relative;
   width: 70%;
@@ -24,7 +37,8 @@
 .title {
   color: #fff;
   font-weight: 800;
-  font-size: 45px;
+  font-size: 30px;
+  margin-top: 30px;
   font-family: 'Dancing Script', cursive;
   }
 
@@ -60,7 +74,6 @@
   color: #fff;
   /* text-align: center; */
   margin-top: 30px;
-  
 }
 
 .main-container h4 {
@@ -97,10 +110,23 @@
     transform: scale(1,1);
   }
 }
+@media only screen and (min-width: 550px){
+  .btn-about{
+      width:250px;
+  }
+  .title {
+    font-size: 45px;
 
+  }
+  .search-form input {
+    width: 40%;
+    height: 40px;
+  }
+}
 @media only screen and (min-width: 600px) {
   .search-form input {
     width: 40%;
+   
   }
   .search-form button {
     width: 25%;
@@ -111,7 +137,7 @@
     width: 40%;
   }
   .search-form button {
-    width: 18%;
+    width: 32%;
   }
 }
 @media only screen and (min-width: 768px){
