@@ -5,6 +5,7 @@
     height: 25px;
     background: linear-gradient(to right, #e277bb 30%, #ddb683 90%);
     border: none;
+    cursor: pointer;
     border-radius: 6px;
   }
 .navbar button:hover {
